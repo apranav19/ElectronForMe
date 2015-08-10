@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Electron For Me! </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color:#397FDB;color:white">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1> The current time is </h1>
+          <div class="row time-container">
+            <div class="col-md-8 col-md-offset-2">
+              <p id="current-date-time"></p>
+              <script type="text/javascript">
+                document.getElementById('current-date-time').innerHTML = Date();
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
